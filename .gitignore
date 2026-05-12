@@ -25,7 +25,8 @@ env/
 
 # Logs
 
-logs/*.log
+logs/
+    .gitkeep
 
 # Operating System Files
 
