@@ -1,0 +1,11 @@
+model:
+  test_size: 0.2
+  random_state: 42
+  n_estimators: 300
+  max_depth: 7
+  learning_rate: 0.05
+
+paths:
+  raw_data: data/raw/landslide.csv
+  model_path: models/landslide_model.pkl
+  scaler_path: models/scaler.pkl
